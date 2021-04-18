@@ -34,7 +34,6 @@ export default {
   methods: {
     depositar(valor) {
       this.saldo = this.saldo + parseInt(valor);
-      this.adepositar.valueOf='0';
     },
     sacar(valor) {
       if(this.saldo > parseInt(valor)) {
